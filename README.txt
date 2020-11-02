@@ -8,7 +8,7 @@ This package is built for common python usage, and I will update for a long time
 python3 setup.py sdist bdist_wheel
 
 # 2. Upload to website
-# pip install --user --upgrade twine
+# pip3 install --user --upgrade twine
 # python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
-python -m twine upload dist/*
+python3 -m twine upload dist/*
 
