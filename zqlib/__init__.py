@@ -7,6 +7,8 @@
 # Distributed under terms of the MIT license.
 
 
-from zqlib.functions import imgs2vid, dumpimgs, readvdnames
-from zqlib.functions import assemble_multiple_images
+from .functions import *
+
+
+from .timer import PTimer
 
